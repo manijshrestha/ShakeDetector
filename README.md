@@ -32,3 +32,22 @@ Really easy to implement just setup the Detector onCreate
 Check Sample App included that plays drum roll when device is shaken.
 
 <img src="https://raw.githubusercontent.com/manijshrestha/ShakeDetector/master/sample_screen.png" width="300" />
+
+Using the Library:
+Add the following in your root level build.gradle
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+In your project build.gradle add the dependency
+```
+dependencies {
+            ...
+	        compile 'com.github.manijshrestha:ShakeDetector:1.0'
+	}
+```
