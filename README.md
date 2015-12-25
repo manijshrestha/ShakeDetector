@@ -30,3 +30,5 @@ Really easy to implement just setup the Detector onCreate
 ```
 
 Check Sample App included that plays drum roll when device is shaken.
+
+<img src="https://raw.githubusercontent.com/manijshrestha/ShakeDetector/master/sample_screen.png" width="300" />
