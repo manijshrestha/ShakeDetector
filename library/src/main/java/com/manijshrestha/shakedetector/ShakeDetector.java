@@ -24,7 +24,7 @@ public class ShakeDetector implements SensorEventListener {
 
     private static final String TAG = "ShakeDetector";
 
-    private static final int DETECTION_INTERVAL = 1000;
+    private static final int DETECTION_INTERVAL = 500;
     private static final float SHAKE_FORCE = 2.5f;
     private static final double SHAKE_PERCENT = 0.1;
 
